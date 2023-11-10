@@ -14,8 +14,8 @@ score_arr = []
 subject_score_arr = []
 
 for info in all_info_arr :
-
   if info[2] == "P" : continue
+    
   score_arr.append(float(info[1]) * float(score_info[info[2]]))
   subject_score_arr.append(float(info[1]))
   

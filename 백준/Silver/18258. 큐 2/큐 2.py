@@ -1,38 +1,36 @@
 import sys
-
-# deque 없이 문제풀기
-N = int(sys.stdin.readline())
-que = []
+from collections import deque
+input = sys.stdin.readline
+# dequeue로 문제풀기
+N = int(input())
+queue = deque()
 ans = []
-cnt = 0
-# 큐에서 팝을 쓰려면 시간초과가 나서 index를 하나씩 추가 해줬다.
-# 삭제를 안하다보니, 리스트에 길이를 알아하는 구간에서는 cnt 값을 빼줘야한다.
 for i in range(N) :
-    j = sys.stdin.readline().split()
+    j = input().split()
     if j[0] == 'push' :
-        que.append(j[1])
+        queue.append(j[1])
     elif j[0] == 'pop' :
-        if len(que) - cnt > 0 :
-            top = que[cnt]
+        if len(queue) > 0 :
+            top = queue.popleft() # pop(0) 대신에 popleft()를 써준다.
             ans.append(top)
-            cnt += 1
         else :
             ans.append('-1')
     elif j[0] == 'size' :
-        ans.append(str(len(que) - cnt))
+        ans.append(str(len(queue)))
     elif j[0] == 'empty' :
-        if len(que) - cnt == 0 :
+        if len(queue) == 0 :
             ans.append('1')
         else :
             ans.append('0')
     elif j[0] == "front" :
-        if len(que) - cnt > 0 :
-            ans.append(que[cnt])
+        if len(queue) > 0 :
+            ans.append(queue[0])
         else :
             ans.append('-1')
     else :
-        if len(que) - cnt > 0 :
-            ans.append(que[-1])
+        if len(queue) > 0 :
+            ans.append(queue[-1])
         else :
             ans.append('-1')
+            
 print("\n".join(ans))

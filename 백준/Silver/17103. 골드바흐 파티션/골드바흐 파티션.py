@@ -14,12 +14,17 @@ for i in range(3,limit,2) :
       prime_list[j] = 0
       
 T = int(input())
+ans = []
 
-for _ in range(T) :
-  N = int(input())
+def goldbah(N) :
   count = 0
-
-  for i in range(1,N // 2 + 1) :
+  for i in range(N // 2 + 1) :
     if prime_list[i] + prime_list[N - i] == N :
       count += 1
-  print(count)
+  ans.append(str(count))
+  
+for _ in range(T) :
+  N = int(input())
+  
+  goldbah(N)
+print("\n".join(ans))

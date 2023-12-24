@@ -1,12 +1,16 @@
-T = int(input())
-ans = []
+import sys
 
-for _ in range(T) :
-    N = int(input())
+input = sys.stdin.readline
 
-    if N == 0 :
+N = int(input())
+ans = list()
+
+for _ in range(N) :
+    nm = int(input())
+
+    if not nm :
         ans.pop()
     else :
-        ans.append(N)
+        ans.append(nm)
 
 print(sum(ans))

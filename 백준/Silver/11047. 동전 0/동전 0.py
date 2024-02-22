@@ -7,7 +7,6 @@ arr = sorted([int(input()) for _ in range(N)],reverse=True)
 ans = 0
 
 for i in range(len(arr)) :
-  if not M : break
   if arr[i] > M : continue
   ans += M // arr[i]
   M %= arr[i]

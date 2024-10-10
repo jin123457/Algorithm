@@ -1,9 +1,6 @@
 let input = require('fs').readFileSync('/dev/stdin').toString().trim().split('\n');
 
-const N = input[0];
-input.shift();
-
-let arr = input.map((x) => x.split(" "));
+let arr = input.slice(1).map((x) => x.split(" "));
 let answer = 0;
 for (let i = 123; i <= 987; i++) {
   let is_find = true;
@@ -28,7 +25,10 @@ for (let i = 123; i <= 987; i++) {
     if (my_num[1] == num[0] || my_num[1] == num[2]) ball += 1;
     if (my_num[2] == num[0] || my_num[2] == num[1]) ball += 1;
 
-    if (+s != strike || +b != ball) is_find = false;
+    if (+s != strike || +b != ball) {
+        is_find = false;
+        break;
+    }
   }
   if (is_find) answer += 1;
 }

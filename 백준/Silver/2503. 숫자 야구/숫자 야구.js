@@ -1,6 +1,9 @@
 let input = require('fs').readFileSync('/dev/stdin').toString().trim().split('\n');
 
-let arr = input.slice(1).map((x) => x.split(" "));
+const N = input[0];
+input.shift();
+
+let arr = input.map((x) => x.split(" "));
 let answer = 0;
 for (let i = 123; i <= 987; i++) {
   let is_find = true;

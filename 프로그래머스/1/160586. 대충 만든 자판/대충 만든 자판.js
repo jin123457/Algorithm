@@ -21,7 +21,7 @@ function solution(keymap, targets) {
       if (!min_index) succes_word = false;
       sum_index += min_index;
     }
-    if (!sum_index || !succes_word) answer[j] = -1;
+    if (!succes_word) answer[j] = -1;
     else answer[j] = sum_index;
   }
 

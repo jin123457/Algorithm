@@ -6,13 +6,13 @@ function solution(ingredient) {
     if(arr.length === 0 && ingredient[i] === 1 && ingredient[i + 1] === 2) {
       arr.push(i);
       i += 1;
-    } else if(arr.length === 1 && ingredient[i] === 2 && ingredient[i - 1] === 1) {
+    } else if(arr.length === 1 && ingredient[i] === 2) {
       arr.push(i);
       i += 1;
-    } else if(arr.length === 2 && ingredient[i] === 3 && ingredient[i - 1] === 2) {
+    } else if(arr.length === 2 && ingredient[i] === 3) {
       arr.push(i);
       i += 1;
-    } else if(arr.length === 3 && ingredient[i] === 1 && ingredient[i - 1] === 3) {
+    } else if(arr.length === 3 && ingredient[i] === 1) {
       arr.push(i);
       i += 1;
     } else if(arr.length === 4) {

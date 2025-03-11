@@ -24,4 +24,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/jin123457/Algorithm/tree/master/0125-valid-palindrome) |
+## Linked List
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/jin123457/Algorithm/tree/master/0021-merge-two-sorted-lists) |
+## Recursion
+|  |
+| ------- |
+| [0021-merge-two-sorted-lists](https://github.com/jin123457/Algorithm/tree/master/0021-merge-two-sorted-lists) |
 <!---LeetCode Topics End-->

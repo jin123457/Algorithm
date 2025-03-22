@@ -9,6 +9,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0020-valid-parentheses](https://github.com/jin123457/Algorithm/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/jin123457/Algorithm/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/jin123457/Algorithm/tree/master/0242-valid-anagram) |
+| [0383-ransom-note](https://github.com/jin123457/Algorithm/tree/master/0383-ransom-note) |
 ## Stack
 |  |
 | ------- |
@@ -39,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0242-valid-anagram](https://github.com/jin123457/Algorithm/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/jin123457/Algorithm/tree/master/0268-missing-number) |
+| [0383-ransom-note](https://github.com/jin123457/Algorithm/tree/master/0383-ransom-note) |
 ## Sorting
 |  |
 | ------- |
@@ -57,4 +59,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0268-missing-number](https://github.com/jin123457/Algorithm/tree/master/0268-missing-number) |
+## Counting
+|  |
+| ------- |
+| [0383-ransom-note](https://github.com/jin123457/Algorithm/tree/master/0383-ransom-note) |
 <!---LeetCode Topics End-->

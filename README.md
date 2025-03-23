@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/jin123457/Algorithm/tree/master/0013-roman-to-integer) |
 | [0020-valid-parentheses](https://github.com/jin123457/Algorithm/tree/master/0020-valid-parentheses) |
 | [0125-valid-palindrome](https://github.com/jin123457/Algorithm/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/jin123457/Algorithm/tree/master/0242-valid-anagram) |
@@ -38,6 +39,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/jin123457/Algorithm/tree/master/0013-roman-to-integer) |
 | [0242-valid-anagram](https://github.com/jin123457/Algorithm/tree/master/0242-valid-anagram) |
 | [0268-missing-number](https://github.com/jin123457/Algorithm/tree/master/0268-missing-number) |
 | [0383-ransom-note](https://github.com/jin123457/Algorithm/tree/master/0383-ransom-note) |
@@ -50,6 +52,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/jin123457/Algorithm/tree/master/0009-palindrome-number) |
+| [0013-roman-to-integer](https://github.com/jin123457/Algorithm/tree/master/0013-roman-to-integer) |
 | [0268-missing-number](https://github.com/jin123457/Algorithm/tree/master/0268-missing-number) |
 ## Binary Search
 |  |
